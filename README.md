@@ -2,9 +2,7 @@
 
 A sleek, minimal developer business card that switches between **light and dark themes** on hover. Built with HTML & CSS — no JavaScript required.
 
-<img width="800" height="429" alt="2026-05-1720-07-18-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/950bf87f-3f31-408d-a9d0-2e6bb1c123a0" />
 <img width="1280" height="687" alt="ezgif-8787fdac4b9e6552" src="https://github.com/user-attachments/assets/ad953560-e82c-4f3a-b33b-ea9abeea9e40" />
-
 
 ---
 
