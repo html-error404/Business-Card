@@ -1,0 +1,142 @@
+/* Box Layout */
+* {
+  box-sizing: border-box;
+}
+
+/* Make the page fill the browser */
+html,
+body {
+  height: 100%;
+}
+
+/* Body */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff67;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* Center card */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Profile card container */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  max-width: 700px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 14px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+/* Hover card */
+.card:hover {
+  transform: translateY(-6px);
+  background: #060606;
+  color: #ffffff;
+  box-shadow: 0 18px 40px rgba(255, 255, 255, 0.08);
+}
+
+/* Avatar styling */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid rgb(0, 0, 0);
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+/* Avatar hover */
+.card:hover .avatar {
+  transform: translateY(-4px) scale(1.02);
+}
+
+/* Hover text color */
+.card:hover .name,
+.card:hover .handle,
+.card:hover .location,
+.card:hover .role {
+  color: #ffffff;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.95);
+}
+
+/* Profile text */
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Name styling */
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1a1a2e;
+  line-height: 1;
+}
+
+/* Handle styling */
+.handle {
+  font-size: 15px;
+  color: #666666;
+  font-style: italic;
+}
+
+/* Role styling */
+.role {
+  margin: 6px 0 0;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Location styling */
+.location {
+  margin-top: -5px;
+  color: #666666;
+  font-weight: 500;
+}
+
+/* Mobile layout adjustments */
+@media (max-width: 560px) {
+  .card {
+    padding: 18px;
+    flex-direction: column;
+  }
+
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile {
+    align-items: center;
+  }
+}
