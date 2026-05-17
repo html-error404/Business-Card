@@ -38,10 +38,10 @@ No build tools or dependencies needed. Just open `index.html` in any modern brow
 
 ## 🧪 Browser Support
 
-Chrome  | ✅
-Firefox | ✅
-Safari  | ✅
-Edge    | ✅
+Chrome  |
+Firefox |
+Safari  |
+Edge    |
 
 ---
 
