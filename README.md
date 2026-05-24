@@ -1,4 +1,4 @@
-# 🃏 Business Card — Hover Theme Toggle
+# Business Card — Hover Theme Toggle
 
 A sleek, minimal developer business card that switches between **light and dark themes** on hover. Built with HTML & CSS — no JavaScript required.
 
